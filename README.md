@@ -11,7 +11,7 @@ This is a solution of the [Single Page CV challenge on Roadmap](https://roadmap.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://dwwm-singe-page-cv.netlify.app/)
+- Live Site URL: [Add live site URL here](https://dwwm-single-page-cv.netlify.app/)
 
 ## My process
 
