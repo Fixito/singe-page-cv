@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <meta
+      name="description"
+      content="Jane DOE, développeuse frontend junior spécialisée en React, Tailwind, et SEO. Expérimentée en développement de sites web responsive."
+    />
+    <meta
+      name="keywords"
+      content="Jane DOE, développeuse frontend, React, Tailwind, SEO, Développeuse web junior, Lille"
+    />
+    <meta name="author" content="Jane DOE" />
+    <link
+      rel="shortcut icon"
+      href="./assets/vite.svg"
+      type="image/x-icon"
+    />
+    <title>Jane DOE - Développeuse Frontend Junior</title>
+
+    <!-- Open Graph Tags for social media sharing -->
+    <meta
+      property="og:title"
+      content="Jane DOE - Développeuse Frontend Junior"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez le CV de Jane DOE, développeuse frontend junior avec une expertise en React, Tailwind, et SEO."
+    />
+    <meta
+      property="og:image"
+      content="./assets/images/screenshot.png"
+    />
+    <meta
+      property="og:url"
+      content="https://dwwm-single-page-cv.netlify.app/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page">
+    <main class="page__main">
+      <header class="header">
+        <h1 class="header__title">Jane DOE</h1>
+
+        <p class="header__position">Développeuse Frontend Junior</p>
+
+        <address class="header__address">
+          <p class="header__address-line">100 Rue Pablo Picasso</p>
+          <p class="header__address-line">59220, Rouvignies</p>
+          <a class="header__address-phone" href="tel:+3323456789"
+            >06.23.45.67.89</a
+          >
+          <a
+            class="header__address-email"
+            href="mailto:jane.doe@gmail.com"
+            >jane.doe@gmail.com</a
+          >
+        </address>
+      </header>
+
+      <section class="section skills">
+        <h2 class="section-title">Compétences</h2>
+
+        <p class="skills__list">
+          HTML, CSS, Javascript, Typescript, React, Accessibilité,
+          Figma, Responsive Design, Rédaction technique, Git,
+          Agile/Scrum
+        </p>
+      </section>
+
+      <section class="section education">
+        <h2 class="education__title section-title">Éducation</h2>
+
+        <article class="education__item">
+          <h3 class="education__item-title article-title">
+            Université de Lille, Lille - Licence Informatique
+          </h3>
+
+          <p class="education__item-dates">
+            Septembre 2018 - Juin 2021
+          </p>
+
+          <p class="education__item-description">
+            Acquisition des bases du développement web, gestion de
+            bases de données, et développement d'applications
+            interactives.
+          </p>
+        </article>
+      </section>
+
+      <section class="section experience">
+        <h2 class="experience__title section-title">Expérience</h2>
+
+        <article class="experience__item">
+          <h3 class="experience__item-title article-title">
+            WebAgencyX, Lille - Développeuse Frontend Stagiaire
+          </h3>
+
+          <p class="experience__item-dates">
+            <time datetime="2023-06">Juin 2023</time> -
+            <time datetime="2023-09">Septembre 2023</time>
+          </p>
+
+          <ul class="experience__item-tasks">
+            <li class="experience__item-task">
+              Développement d'interfaces utilisateurs en React et
+              Tailwind
+            </li>
+
+            <li class="experience__item-task">
+              Optimisation des performances des pages web (réduction
+              du temps de chargement de 20%)
+            </li>
+
+            <li class="experience__item-task">
+              Collaboration avec des designers sur Figma pour intégrer
+              des maquettes responsives
+            </li>
+          </ul>
+
+          <p class="experience__item-skills">
+            Compétences: React, TailwindCSS, Git, Figma, SEO,
+            Responsive Design
+          </p>
+        </article>
+
+        <article class="experience__item">
+          <h3 class="experience__item-title article-title">
+            Freelance, Valenciennes - Développeuse Web Junior
+          </h3>
+
+          <p class="experience__item-dates">
+            <time datetime="2021-10">Octobre 2021</time> -
+            <time datetime="2023-05">Mai 2023</time>
+          </p>
+
+          <ul class="experience__item-tasks">
+            <li class="experience__item-task">
+              Création de sites web vitrine pour des petites
+              entreprises locales
+            </li>
+
+            <li class="experience__item-task">
+              Intégration de CMS (WordPress) et personnalisation de
+              thèmes
+            </li>
+
+            <li class="experience__item-task">
+              Formation des clients à l'utilisation et la mise à jour
+              de leur site
+            </li>
+          </ul>
+
+          <p class="experience__item-skills">
+            Compétences: HTML, CSS, Javascript, WordPress, SEO,
+            Relation client
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <a
+          class="footer__link"
+          href="#"
+          aria-label="GitHub"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          class="footer__link"
+          href="#"
+          aria-label="LinkedIn"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>

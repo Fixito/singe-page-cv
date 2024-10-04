@@ -1,0 +1,130 @@
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(240, 10%, 3.9%);
+  --primary: hsl(142.1, 76.2%, 36.3%);
+  --secondary: hsl(221.2, 83.2%, 53.3%);
+
+  --fw-semi-bold: 600;
+
+  --fluid-width: 90vw;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui;
+  line-height: 1.5;
+}
+
+p {
+  max-inline-size: 65ch;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  font-weight: var(--fw-semi-bold);
+}
+
+ul {
+  padding-inline-start: 1rem;
+}
+
+a {
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+.page__main {
+  inline-size: var(--fluid-width);
+  max-inline-size: var(--max-width);
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+.section {
+  padding-block: 1rem;
+}
+
+.section-title {
+  color: var(--primary);
+}
+
+.article-title {
+  color: var(--secondary);
+}
+
+/** HEADER */
+
+.header {
+  padding-block-start: 1rem;
+  border-block-start: 1px solid var(--foreground);
+}
+
+.header__position {
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: var(--fw-semi-bold);
+}
+
+.header__address-phone,
+.header__address-email {
+  display: block;
+  text-decoration: underline;
+}
+
+.header > * + * {
+  margin-block-start: 1em;
+}
+
+/** SKILLS */
+
+.skills__list {
+  margin-block-start: 1em;
+}
+
+/** EDUCATION */
+
+.education__item {
+  margin-block-start: 1em;
+}
+
+.education__item > * + * {
+  margin-block-start: 0.5em;
+}
+
+/** EXPERIENCE */
+
+.experience__item {
+  margin-block-start: 1em;
+}
+
+.experience__item * + *,
+.experience__item-tasks > * + * {
+  margin-block-start: 0.5em;
+}
+
+/** FOOTER */
+.footer {
+  margin-block-start: 1em;
+}
+
+.footer > * + * {
+  margin-inline-start: 0.5rem;
+}
+
+.footer__link {
+  font-size: 1.5rem;
+}
+
+.footer__link:hover {
+  color: hsl(240 10% 3.9% / 0.8);
+}
